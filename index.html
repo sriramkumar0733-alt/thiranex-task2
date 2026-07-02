@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sriram Kumar Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container nav-container">
+        <h1>Sriram Kumar</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="theme-btn">🌙</button>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h2>Hello, I'm Sriram Kumar</h2>
+        <p>B.Tech Information Technology Student at Government College of Engineering, Erode.</p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="profile.jpg" alt="Profile Picture">
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+
+        <p>
+            Passionate IT student interested in Web Development, Artificial Intelligence and
+            creating innovative solutions.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Responsive portfolio website using HTML and CSS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Collexa AI Assistant</h3>
+                <p>AI assistant for GCE Erode students.</p>
+            </div>
+
+            <div class="card">
+                <h3>Weather App</h3>
+                <p>Simple weather application using APIs.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+
+        <div class="contact-box">
+            <p>📞 9751735510</p>
+            <p>📧 sriramkumar0733@gmail.com</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sriram Kumar. All Rights Reserved.</p>
+</footer>
+
+<script>
+const btn = document.getElementById("theme-btn");
+
+btn.onclick = () => {
+    document.body.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
